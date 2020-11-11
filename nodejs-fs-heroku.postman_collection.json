@@ -1,0 +1,62 @@
+{
+	"id": "e9b61b6c-27ad-12f9-cf83-32f7273b2d2a",
+	"name": "nodejs-fs-heroku",
+	"description": "",
+	"order": [
+		"32f54167-d11c-e10f-7a5d-acbd37e9e9f2",
+		"2975af8c-b542-4cde-eef9-d89b179acc70"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1605113418468,
+	"owner": "13445669",
+	"public": false,
+	"requests": [
+		{
+			"id": "2975af8c-b542-4cde-eef9-d89b179acc70",
+			"headers": "",
+			"headerData": [],
+			"url": "https://nodejs-filesystem-heroku.herokuapp.com/createfile",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "e9b61b6c-27ad-12f9-cf83-32f7273b2d2a",
+			"data": null,
+			"dataMode": "params",
+			"name": "Create A File",
+			"description": "This Request will create a text file in CurrentTimeFiles folder with its name as current date-time and its content with current timestamp.",
+			"descriptionFormat": "html",
+			"time": 1605113558116,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "32f54167-d11c-e10f-7a5d-acbd37e9e9f2",
+			"headers": "",
+			"headerData": [],
+			"url": "https://nodejs-filesystem-heroku.herokuapp.com/getFiles",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "e9b61b6c-27ad-12f9-cf83-32f7273b2d2a",
+			"data": null,
+			"dataMode": "params",
+			"name": "Get all Files",
+			"description": "This request will Get all the file names from CurrentTimeFiles folder and show in the web page with their name.",
+			"descriptionFormat": "html",
+			"time": 1605113467687,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
