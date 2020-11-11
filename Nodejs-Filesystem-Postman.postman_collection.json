@@ -1,0 +1,62 @@
+{
+	"id": "b23f419a-8af1-8d31-64e3-d2c1fa35483b",
+	"name": "Nodejs-Filesystem-Postman",
+	"description": "",
+	"order": [
+		"35e742c6-3acc-50fd-51ed-ddbd7fc03803",
+		"2c258646-1a34-cec0-5deb-0fbbb4fcce87"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1605077041596,
+	"owner": "13445669",
+	"public": false,
+	"requests": [
+		{
+			"id": "2c258646-1a34-cec0-5deb-0fbbb4fcce87",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/createfile",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "b23f419a-8af1-8d31-64e3-d2c1fa35483b",
+			"data": null,
+			"dataMode": "params",
+			"name": "Create A File",
+			"description": "This request will create a new text file with current date-time in CurrentTimeFiles Folder.",
+			"descriptionFormat": "html",
+			"time": 1605077128886,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "35e742c6-3acc-50fd-51ed-ddbd7fc03803",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/getFiles",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "b23f419a-8af1-8d31-64e3-d2c1fa35483b",
+			"data": null,
+			"dataMode": "params",
+			"name": "Get All Files",
+			"description": "This will get all the text files in CurrentTimeFiles folder",
+			"descriptionFormat": "html",
+			"time": 1605077076863,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
