@@ -33,4 +33,7 @@ app
             response.send(`${date + '-' + time}.txt File Created Successfully.!`)  //Sending the success response after file gets created
         })
     })
-    .listen(process.env.PORT) // App listening on Port 8080
+    .get('/*', (request, response) => {
+        response.status(404).send('<h1>Page Not Found ! </h1>');
+    })
+    .listen(process.env.PORT) // App listening on process port
