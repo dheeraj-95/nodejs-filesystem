@@ -10,5 +10,3 @@
 * Postman Link : https://www.getpostman.com/collections/8ea7c3ed0e6a5a8cb539
 
 * Heroku Link : https://nodejs-filesystem-heroku.herokuapp.com/getFiles
-
-* Postman Link : https://www.getpostman.com/collections/8ea7c3ed0e6a5a8cb539
