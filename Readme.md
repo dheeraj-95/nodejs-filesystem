@@ -7,7 +7,7 @@
     * This will also show all the text files present in the CurrentTimeFiles Folder (/getFiles Api)
 
 ### Links :
-* Postman Link : https://www.getpostman.com/collections/a51af6f52d7d327a87a4
+* Postman Link : https://documenter.getpostman.com/view/13445669/TVepAoKu
 
 * Heroku Link : https://nodejs-filesystem-heroku.herokuapp.com/getFiles
 
